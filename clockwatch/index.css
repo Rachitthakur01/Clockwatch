@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(109, 109, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("bacl.png");
+    background-size: cover;
+}
+.container{
+    color: silver;
+
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.btn{
+    padding: 8px 35px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: gray;
+
+}
+#start{
+    background-color: blue;
+    border-color: white;
+    border-radius: 5px;
+
+}
+#stop{
+    background-color: rgb(155, 174, 8);
+    border-color: white;
+    border-radius: 5px;
+
+}
+#reset{
+    border-color: brown;
+    border-color: white;
+    border-radius: 5px;
+
+}
+
